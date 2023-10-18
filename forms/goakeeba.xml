@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<fields name="params">
+		<fieldset name="task_params">
+				<field name="xdays" type="text" 
+					default="1" 
+					size="5" 
+					label="Controle tous les x jours"
+					description="Périodicité en jour"
+				/>
+				
+				<field name="time" type="text" 
+					default="00:00" 
+					size="5" 
+					label="Heure d'execution"  
+					description="Heure d'execution"
+				/>
+				<field name="freq" type="hidden" 
+					default="1" 
+					size="5" 
+					label="Contrôle x fois par jour"
+					description="Nombre de contrôle par jour"
+				/>
+				<field name="profile" type="text" 
+					default="1" 
+					size="5" 
+					label="No de Profile "
+					description="No de profile Akeeba à lancer"
+				/>
+				<field name="pass" type="text" 
+					default="" 
+					size="30" 
+					label="Mot secret"
+					description="Mot secret Akeeba"
+				/>
+				<field name="mode" type="radio"
+				default="curl"
+				label="Mode lancement"
+				description="SMode de lancement de la sauvegarde Curl ou Redirection (Curl recommandé)" 
+				class="btn-group btn-group-yesno">
+					<option value="curl">Curl</option>
+					<option value="redir">Redirect</option>
+				</field>
+				
+				<field name="debug" type="radio"
+				default="0"
+				label="Lancer à la mise à jour"
+				description="Souhaitez-vous lancer le plugin à la mise à jour ? permet de tester sans attendre le délai" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				
+				<field name="log" type="radio"
+				default="0"
+				label="Log des actions"
+				description="Souhaitez-vous garder une trace du plugin ? si oui, un fichier goakeeba.trace.log sera créé dans le répertoire logs" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+		</fieldset>
+	</fields>
+</form>
