@@ -4,10 +4,10 @@
 	<author>conseilgouz</author>
 	<creationDate>2023-10-18</creationDate>
 	<copyright>Copyright (C) 2023 ConseilGouz. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<authorEmail>pascal.leconte@conseilgouz.com</authorEmail>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<authorEmail>pascal.leconte@nordnet.fr</authorEmail>
 	<authorUrl>www.conseilgouz.com</authorUrl>
-	<version>1.0.0</version>
+	<version>2.0.0</version>
 	<description><![CDATA[<p>Plugin Task GoAkeeba.<br>Lancement d'<b>akeeba backup pro</b> à heure fixe.<br><br><a href="index.php?option=com_plugins&filter_folder=system&filter_element=goakeeba">N'oubliez pas d'activer ce plugin.</a><br><br>Note : <a href="index.php?option=com_config&view=component&component=com_akeebabackup#frontend" target="_blank">dans la configuration d'Akeeba</a>, onglet Sauvegarde Frontal, activez Enable Legacy Front-end Backup API (remote CRON jobs) et saisissez un mot de passe qui est à utiliser dans les paramètres de ce plugin.<br></p>]]>
 	</description>
 	<files>
